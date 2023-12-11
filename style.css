@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8ebeb;
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 50%; 
+    text-align: center;
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  div a.active{
+    color: red;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }  
+}
+
+.main {
+    text-align: center;
+}
+
+.main h1{
+    padding-bottom: 100px 0;
+    text-align: center;
+    color: red;
+}
+.main h2 {
+    font-size: 36px;
+}
+
+.main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+}
